@@ -1,0 +1,23 @@
+DROP TABLE IF EXISTS google;
+DROP TABLE IF EXISTS yahoo;
+DROP TABLE IF EXISTS stock_id;
+
+CREATE TABLE google (
+  High integer NOT NULL,
+  Low integer NOT NULL,
+  Open integer NOT NULL,
+  Close integer NOT NULL,
+  Volume integer NOT NULL,
+  Adj Close integer NOT NULL
+);
+CREATE TABLE yahoo (
+  High integer NOT NULL,
+  Low integer NOT NULL,
+  Open integer NOT NULL,
+  Close integer NOT NULL,
+  Volume integer NOT NULL,
+  Adj Close integer NOT NULL
+);
+CREATE TABLE stock_ID (
+  stock_ID
+);
