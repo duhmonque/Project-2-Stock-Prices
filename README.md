@@ -4,6 +4,7 @@ Github class project
 References:
 
 Main branch:
+--
 --> Jupyter Notebook of Entire Project = Project 2 - ETL.ipynb
 
 --> DataBase for Entire Project = stock_prices.sql
