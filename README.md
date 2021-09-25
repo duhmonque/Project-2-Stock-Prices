@@ -15,7 +15,7 @@ Branch DominiqueVillasenor - Importing and Data Cleaning
 --
 Extracted the two csv files from the Kaggle website and used pandas to load the two files into Jupyter notebook. I had to transform the data by adding a new column called "stock_id", this way I can differentiate which stock (google or yahoo) prices I was looking at. Then I had to clean up the format for the 'Date' column because it was written in / (slashes) and we needed to change it to - (dashes) format. Then I merged the two datapoints to one table. 
 
-Branch Niki Sinclair- Data Cleaning, Case Studies, Statistical Analysis
+Branch Niki Sinclair- Creating table and Loading data to database
 --
 Created the SQL schema so that we can create tables for google data points and yahoo data points and then used UNION to merge those information together. 
 
